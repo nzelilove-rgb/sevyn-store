@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SEVYN STORE | WEAR YOUR IDENTITY</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #111;
+    padding: 22px 15px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    color: #dcecff;
+}
+
+.slogan {
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #aaa;
+    margin-top: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 18px 10px;
+    background: #171717;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 15px;
+    background: linear-gradient(135deg,#111,#333,#080808);
+}
+
+.hero h1 {
+    font-size: 42px;
+    letter-spacing: 5px;
+}
+
+.hero p {
+    color: #ccc;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    background: #dcecff;
+    color: black;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+section {
+    padding: 55px 15px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.product {
+    background: #171717;
+    padding-bottom: 20px;
+    border: 1px solid #333;
+}
+
+.product img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 15px 5px;
+}
+
+.product p {
+    color: #dcecff;
+    margin-bottom: 15px;
+}
+
+.product a {
+    display: inline-block;
+    background: #dcecff;
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    background: #151515;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 10px;
+    background: black;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    background: #25d366;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">♛ SEVYN</div>
+    <div class="slogan">WEAR YOUR IDENTITY.</div>
+</header>
+
+<nav>
+    <a href="#home">HOME</a>
+    <a href="#men">MEN</a>
+    <a href="#women">WOMEN</a>
+    <a href="#kids">KIDS</a>
+    <a href="#shoes">SHOES</a>
+</nav>
+
+<div class="hero" id="home">
+    <h1>WELCOME TO SEVYN</h1>
+    <p>Style is your identity. Wear it with confidence.</p>
+    <a href="#collections" class="button">SHOP NOW</a>
+</div>
+
+<section id="collections">
+    <h2>OUR COLLECTIONS</h2>
+
+    <div class="products">
+
+        <div class="product" id="men">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500" alt="Men fashion">
+            <h3>MEN'S COLLECTION</h3>
+            <p>Discover Your Style</p>
+            <a href="https://wa.me/256790379397?text=Hello%20SEVYN%2C%20I%20want%20men%20fashion">SHOP NOW</a>
+        </div>
+
+        <div class="product" id="women">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500" alt="Women fashion">
+            <h3>WOMEN'S COLLECTION</h3>
+            <p>Beauty Meets Style</p>
+            <a href="https://wa.me/256790379397?text=Hello%20SEVYN%2C%20I%20want%20women%20fashion">SHOP NOW</a>
+        </div>
+
+        <div class="product" id="kids">
+            <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=500" alt="Kids fashion">
+            <h3>KIDS COLLECTION</h3>
+            <p>Fashion For Everyone</p>
+            <a href="https://wa.me/256790379397?text=Hello%20SEVYN%2C%20I%20want%20kids%20clothes">SHOP NOW</a>
+        </div>
+
+        <div class="product" id="shoes">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="Shoes">
+            <h3>SHOES & ACCESSORIES</h3>
+            <p>Complete Your Look</p>
+            <a href="https://wa.me/256790379397?text=Hello%20SEVYN%2C%20I%20want%20shoes%20and%20accessories">SHOP NOW</a>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>NEW ARRIVALS</h2>
+    <p>Fresh styles. New identity. Coming soon!</p>
+</section>
+
+<section class="about">
+    <h2>ABOUT SEVYN</h2>
+    <p>
+        SEVYN STORE is your destination for modern urban fashion.
+        We bring you unique styles for men, women and kids.
+        Our mission is to help everyone express their identity
+        through fashion.
+    </p>
+    <br>
+    <h3>WEAR YOUR IDENTITY.</h3>
+</section>
+
+<footer>
+    <p>SEVYN STORE © 2026</p>
+    <p>Uganda | Fashion Without Limits</p>
+    <p>Contact: +256790379397</p>
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/256790379397">
+WhatsApp Us
+</a>
+
+</body>
+  </html>
